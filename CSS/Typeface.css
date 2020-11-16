@@ -19,6 +19,16 @@
 }
 
 @font-face {
+	font-family: 'OpenSans-SemiBoldItalic';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../Fonts/OpenSans-SemiBoldItalic.eot');
+	src:
+		 url('../Fonts/OpenSans-SemiBoldItalic.woff') format('woff'),
+		 url('../Fonts/OpenSans-SemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
 	font-family: 'OpenSans-Bold';
 	font-weight: normal;
 	font-style: normal;
@@ -26,4 +36,14 @@
 	src:
 		 url('../Fonts/OpenSans-Bold.woff') format('woff'),
 		 url('../Fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'OpenSans-BoldItalic';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../Fonts/OpenSans-BoldItalic.eot');
+	src:
+		 url('../Fonts/OpenSans-BoldItalic.woff') format('woff'),
+		 url('../Fonts/OpenSans-BoldItalic.ttf') format('truetype');
 }
