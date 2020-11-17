@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang ="en-US">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Spencer Moore Portfolio Home</title>
+
+    <link rel="stylesheet" href="CSS/Main.css">
+    <link rel="stylesheet" href="CSS/Typeface.css">
+  </head>
+
+  <body>
+    <h1>Content</h1>
+    <br>
+    <h2>Copywriting for UpCircleSeven</h2>
+    <br>
+    <h3>context</h3>
+    <p>This project was completed as a freelance contract with @tribute Agency. They overhaul entire company’s marketing - creating a new brand identity, style guide, website (form & function), and social media channels</p>
+    <h3>the team</h3>
+    <p>Selene Dior - Project Lead</p>
+    <p>Darya Tyugay - Graphic Design</p>
+    <p>Spencer Moore - Content/Copywriting</p>
+    <h3>my role</h3>
+    <p>Reimagine and pitch a new brand identity for the company</p>
+    <p>Recreate all new sales website copy, with revised identity and tone</p>
+    <h3>brand identity</h3>
+    <p>The team met with UpCircleSeven’s owners to understand their goals for the redesign, before working together to create the brand identiy seen below.</p>
+    <p>We presented/revised the results multiple times until they aligned perfectly with the client’s desired target customer.</p>
+    <br>
+    <!-- The below code syntax for the image carousel was taken from W3 Schools, link in citations -->
+          <div class="carousel">
+            <div class="slide">
+              <img src="Images/UpCircle/1.jpg" alt="UpCircleSeven Brand Book Slide" style="width:100%;">
+            </div>
+            <div class="slide">
+              <img src="Images/UpCircle/2.jpg" alt="" style="width:100%;">
+            </div>
+            <div class="slide">
+              <img src="Images/UpCircle/3.jpg" alt="UpCircleSeven Brand Book Slide" style="width:100%;">
+            </div>
+            <div class="slide">
+              <img src="Images/UpCircle/4.jpg" alt="UpCircleSeven Brand Book Slide" style="width:100%;">
+            </div>
+            <div class="slide">
+              <img src="Images/UpCircle/5.jpg" alt="UpCircleSeven Brand Book Slide" style="width:100%;">
+            </div>
+            <div class="slide">
+              <img src="Images/UpCircle/6.jpg" alt="UpCircleSeven Brand Book Slide" style="width:100%;">
+            </div>
+            <div class="slide">
+              <img src="Images/UpCircle/7.jpg" alt="UpCircleSeven Brand Book Slide" style="width:100%;">
+            </div>
+            <div class="slide">
+              <img src="Images/UpCircle/8.jpg" alt="UpCircleSeven Brand Book Slide" style="width:100%;">
+            </div>
+            <div class="slide">
+              <img src="Images/UpCircle/9.jpg" alt="UpCircleSeven Brand Book Slide" style="width:100%;">
+            </div>
+            <div class="slide">
+              <img src="Images/UpCircle/10.jpg" alt="UpCircleSeven Brand Book Slide" style="width:100%;">
+            </div>
+            <div class="slide">
+              <img src="Images/UpCircle/11.jpg" alt="UpCircleSeven Brand Book Slide" style="width:100%;">
+            </div>
+
+            <a class="back" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+
+          <!--Below code pulled from W3 Schools: https://www.w3schools.com/howto/howto_js_slideshow.asp// -->
+          <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("slide");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+              }
+              slides[slideIndex-1].style.display = "block";
+            }
+          </script>
+
+    <h3>website</h3>
+    <p>I worked with the web designer to create meaningful, but brief content that spoke directly to the audience, conveying the mission and goals of both the company and individual products, as seen in the screenshots below.</p>
+    <br>
+    <!-- The below code syntax for the image carousel was taken from W3 Schools, link in citations -->
+          <div class="carousel">
+            <div class="slide2">
+              <img src="Images/UpCircle/web1.png" alt="UpCircleSeven Website Screenshot" style="width:100%;">
+            </div>
+            <div class="slide2">
+              <img src="Images/UpCircle/web2.png" alt="UpCircleSeven Website Screenshot" style="width:100%;">
+            </div>
+            <div class="slide2">
+              <img src="Images/UpCircle/web3.png" alt="UpCircleSeven Website Screenshot" style="width:100%;">
+            </div>
+            <div class="slide2">
+              <img src="Images/UpCircle/web4.png" alt="UpCircleSeven Website Screenshot" style="width:100%;">
+            </div>
+            <div class="slide2">
+              <img src="Images/UpCircle/web5.png" alt="UpCircleSeven Website Screenshot" style="width:100%;">
+            </div>
+            <div class="slide2">
+              <img src="Images/UpCircle/web6.png" alt="UpCircleSeven Website Screenshot" style="width:100%;">
+            </div>
+            <div class="slide2">
+              <img src="Images/UpCircle/web7.png" alt="UpCircleSeven Website Screenshot" style="width:100%;">
+            </div>
+
+            <a class="back" onclick="plusSlides2(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+          </div>
+
+          <!--Below code pulled from W3 Schools: https://www.w3schools.com/howto/howto_js_slideshow.asp// -->
+          <script>
+            var slideIndex2 = 1;
+            showSlides2(slideIndex2);
+
+            function plusSlides2(n) {
+              showSlides2(slideIndex2 += n);
+            }
+
+            function currentSlide2(n) {
+              showSlides2(slideIndex2 = n);
+            }
+
+            function showSlides2(n) {
+              var i;
+              var slides2 = document.getElementsByClassName("slide2");
+              if (n > slides2.length) {slideIndex2 = 1}
+              if (n < 1) {slideIndex2 = slides2.length}
+              for (i = 0; i < slides2.length; i++) {
+                  slides2[i].style.display = "none";
+              }
+              slides2[slideIndex2-1].style.display = "block";
+            }
+          </script>
+          <br>
+          <br>
+          <br>
+
+    <footer>
+      <a href="Index.html" style="text-decoration: none;"> <h1 class="dark" style="margin-left:10%;">Spencer Moore</h1> </a>
+    </footer>
+  </body>
+</html>
