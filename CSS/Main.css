@@ -1,6 +1,6 @@
 /*Fonts*/
 .title{
-
+  font-size: 100px;
 }
 
 h1 {
@@ -68,6 +68,12 @@ body{
   padding-bottom: 15%;
 }
 
+.images {
+  width: 80%;
+  justify-content: center;
+  padding-bottom: 5%
+}
+
 footer {
   position: fixed;
   left: 0;
@@ -101,6 +107,24 @@ footer {
   z-index: 1;
 }
 
+.dropdown2 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown3 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
 /* Links inside the dropdown */
 .dropdown a {
   color: black;
@@ -115,15 +139,12 @@ footer {
 /* Show the dropdown menu on hover */
 .nav:hover .dropdown {display: block;}
 
+.nav2:hover .dropdown2 {display: block;}
+
+.nav3:hover .dropdown3 {display: block;}
+
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .nav:hover {background-color: #3e8e41;}
-
-
-/* Add an active class to the active dropdown button */
-.active {
-  background-color: green;
-  color: white;
-}
 
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .expanded {
@@ -131,10 +152,7 @@ footer {
   background-color: #262626;
   padding-left: 8px;
 }
-.fa-caret-down {
-  float: right;
-  padding-right: 8px;
-}
+
 
 /*Carousels*/
 .carousel {
