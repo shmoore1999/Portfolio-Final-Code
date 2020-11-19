@@ -3,6 +3,10 @@
   font-size: 100px;
 }
 
+.home {
+  height: 40%
+}
+
 h1 {
   font-family: "OpenSans-BoldItalic", Arial, sans-serif;
   color: rgb(38, 44, 44);
@@ -64,7 +68,7 @@ p {
 /*Layout*/
 body{
   background-color: rgb(249, 249, 246);
-  margin: 10%;
+  margin-left: 10%;
   padding-bottom: 15%;
 }
 
@@ -84,74 +88,56 @@ footer {
 }
 
 /*Main Nav*/
-/* Dropdown Button */
-.view {
-  background-color: rgb(249, 249, 246);
+.navbut {
+  display: inline-flex;
+  margin-left: 10%;
+  position: relative;
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-decoration: none;
   font-size: 16px;
   border: none;
 }
 
-/* The container <div> - needed to position the dropdown content */
-.nav {
-  position: relative;
-  display: inline-block;
+.button {
+  background-color: rgb(81, 94, 95);
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
 }
 
 /* Dropdown Content (Hidden by Default) */
-.dropdown {
+.dropdowncontent {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  padding-top: 40px;
 }
 
-.dropdown2 {
+.dropdowncontent2 {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown3 {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  padding-top: 40px;
 }
 
 /* Links inside the dropdown */
-.dropdown a {
-  color: black;
+.dropdowncontent a {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-/* Change color of dropdown links on hover */
-.nav a:hover {background-color: #ddd;}
+.dropdowncontent2 a{
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
 
 /* Show the dropdown menu on hover */
-.nav:hover .dropdown {display: block;}
+.navbut:hover .dropdowncontent {display: block;}
 
-.nav2:hover .dropdown2 {display: block;}
-
-.nav3:hover .dropdown3 {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.nav:hover {background-color: #3e8e41;}
-
-/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
-.expanded {
-  display: none;
-  background-color: #262626;
-  padding-left: 8px;
-}
+.navbut:hover .dropdowncontent2 {display: block;}
 
 
 /*Carousels*/
