@@ -2,14 +2,130 @@
 <html lang ="en-US">
 
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <title>Spencer Moore Photography</title>
+
+    <link rel="stylesheet" href="CSS/Main.css">
+    <link rel="stylesheet" href="CSS/Typeface.css">
   </head>
 
   <body>
+    <h1>Photography</h1>
+    <br>
+    <h2>Art Direction & Fashion</h2>
+    <h3>Ana Daria Vieru styled & shot by me on 35mm film</h3>
+    <!-- The below code syntax for the image carousel was taken from W3 Schools, link in citations -->
+          <div class="carousel">
+            <div class="slide3">
+              <img src="Images/Photography/daria1.jpg" alt="" style="width:100%;">
+            </div>
+            <div class="slide3">
+              <img src="Images/Photography/daria2.jpg" alt="" style="width:100%;">
+            </div>
+            <div class="slide3">
+              <img src="Images/Photography/daria3.jpg" alt="" style="width:100%;">
+            </div>
+            <div class="slide3">
+              <img src="Images/Photography/daria4.jpg" alt="Photo" style="width:100%;">
+            </div>
+            <div class="slide3">
+              <img src="Images/Photography/daria5.jpg" alt="Photo" style="width:100%;">
+            </div>
+            <div class="slide3">
+              <img src="Images/Photography/daria6.jpg" alt="Photo" style="width:100%;">
+            </div>
+            <div class="slide3">
+              <img src="Images/Photography/daria7.jpg" alt="Photo" style="width:100%;">
+            </div>
+            <div class="slide3">
+              <img src="Images/Photography/daria8.jpg" alt="Photo" style="width:100%;">
+            </div>
+            <div class="slide3">
+              <img src="Images/Photography/daria9.jpg" alt="Photo" style="width:100%;">
+            </div>
+            <div class="slide3">
+              <img src="Images/Photography/daria10.jpg" alt="Photo" style="width:100%;">
+            </div>
+            <div class="slide3">
+              <img src="Images/Photography/daria11.jpg" alt="Photo" style="width:100%;">
+            </div>
 
+            <a class="back" onclick="plusSlides3(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+          </div>
+
+          <!--Below code pulled from W3 Schools: https://www.w3schools.com/howto/howto_js_slideshow.asp// -->
+          <script>
+            var slideIndex3 = 1;
+            showSlides3(slideIndex3);
+
+            function plusSlides3(n) {
+              showSlides3(slideIndex3 += n);
+            }
+
+            function currentSlide3(n) {
+              showSlides3(slideIndex3 = n);
+            }
+
+            function showSlides3(n) {
+              var i;
+              var slides3 = document.getElementsByClassName("slide3");
+              if (n > slides3.length) {slideIndex3 = 1}
+              if (n < 1) {slideIndex3 = slides3.length}
+              for (i = 0; i < slides3.length; i++) {
+                  slides3[i].style.display = "none";
+              }
+              slides3[slideIndex3-1].style.display = "block";
+            }
+          </script>
+
+          <br>
+          <h3>Ursula Blanchard styled, shot, and graphically laid out by me</h3>
+          <!-- The below code syntax for the image carousel was taken from W3 Schools, link in citations -->
+                <div class="carousel">
+                  <div class="slide4">
+                    <img src="Images/Photography/ursone.png" alt="Photo" style="width:100%;">
+                  </div>
+                  <div class="slide4">
+                    <img src="Images/Photography/urstwo.png" alt="Photo" style="width:100%;">
+                  </div>
+                  <div class="slide4">
+                    <img src="Images/Photography/ursthree.png" alt="Photo" style="width:100%;">
+                  </div>
+
+                  <a class="back" onclick="plusSlides4(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides4(1)">&#10095;</a>
+                </div>
+
+                <!--Below code pulled from W3 Schools: https://www.w3schools.com/howto/howto_js_slideshow.asp// -->
+                <script>
+                  var slideIndex4 = 1;
+                  showSlides4(slideIndex4);
+
+                  function plusSlides4(n) {
+                    showSlides4(slideIndex4 += n);
+                  }
+
+                  function currentSlide4(n) {
+                    showSlides4(slideIndex4 = n);
+                  }
+
+                  function showSlides4(n) {
+                    var i;
+                    var slides4 = document.getElementsByClassName("slide4");
+                    if (n > slides4.length) {slideIndex4 = 1}
+                    if (n < 1) {slideIndex4 = slides4.length}
+                    for (i = 0; i < slides4.length; i++) {
+                        slides4[i].style.display = "none";
+                    }
+                    slides4[slideIndex4-1].style.display = "block";
+                  }
+                </script>
 
     <footer>
-
+      <a href="Index.html" style="text-decoration: none;"> <h1 class="dark" style="margin-left:10%;">Spencer Moore</h1> </a>
     </footer>
   </body>
 </html>
