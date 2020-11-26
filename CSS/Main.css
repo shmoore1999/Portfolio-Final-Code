@@ -2,6 +2,10 @@
 .title{
   font-size: 100px;
 }
+.foottitle{
+  font-family: "OpenSans-BoldItalic", Arial, sans-serif;
+  text-decoration: none;
+}
 
 .home {
   height: 40%
@@ -58,7 +62,16 @@ p {
 }
 
 .dark {
+  font-family: "OpenSans-Bold", Arial, sans-serif;
+
  color: rgb(246, 246, 244);
+ text-decoration: none;
+}
+
+.dark:hover{
+  color: rgb(159, 159, 149);
+  text-decoration: none;
+  font-family: "OpenSans-BoldItalic", Arial, sans-serif;
 }
 
 .iframe{
@@ -150,6 +163,20 @@ footer {
 .slide {
   display: none;
 }
+
+/*.slide3 {
+  position: relative;
+  overflow: hidden;
+  height: 1228px;
+}
+
+.slide3 img {
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}*/
 
 .back, .next {
   cursor: pointer;
