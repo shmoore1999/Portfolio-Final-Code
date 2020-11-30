@@ -88,7 +88,7 @@ header{
   display:flex;
   justify-content: flex-end;
   padding-top: 1rem;
-  margin-right: 10%;
+  padding-right: 1rem;
 }
 body{
   background-color: rgb(81, 94, 95);
