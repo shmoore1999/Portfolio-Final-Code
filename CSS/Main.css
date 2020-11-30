@@ -1,6 +1,7 @@
 /*Fonts*/
 .title{
   font-size: 6rem;
+  margin-top: -2px;
 }
 .foottitle{
   font-family: "OpenSans-BoldItalic", Arial, sans-serif;
@@ -12,6 +13,7 @@
   text-decoration: none;
   color: rgb(159, 159, 149);
 }
+
 
 h1 {
   font-family: "OpenSans-BoldItalic", Arial, sans-serif;
@@ -82,6 +84,12 @@ p {
 }
 
 /*Layout*/
+header{
+  display:flex;
+  justify-content: flex-end;
+  padding-top: 1rem;
+  margin-right: 10%;
+}
 body{
   background-color: rgb(81, 94, 95);
   margin-left: 10%;
@@ -124,6 +132,8 @@ footer {
 }
 
 .home {
+  isplay: flex;
+  flex-direction: row;
   background-color: rgb(249, 249, 246);
   width: 100%;
   height: 100%;
@@ -132,6 +142,7 @@ footer {
 .home2 {
   flex-direction:row;
   background-color: rgb(81, 94, 95);
+  padding-top: 1.5rem;
   width: 100%;
   height: 100%;
 }
@@ -141,7 +152,7 @@ footer {
   display: inline-flex;
   padding: 0.5rem;
   font-size: 1rem;
-  margin-left: 2rem;
+  margin-left: 10%;
   text-decoration: none;
   border: none;
   position: sticky;
