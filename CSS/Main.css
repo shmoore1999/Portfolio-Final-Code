@@ -93,6 +93,7 @@ header{
 body{
   background-color: rgb(81, 94, 95);
   margin-left: 10%;
+  margin-right: 10%;
   padding-bottom: 15%;
   border: none;
 }
@@ -101,10 +102,10 @@ body{
   background-color: rgb(249, 249, 246);
 }
 
-
 .images {
   width: 80%;
-  justify-content: center;
+  display: flex;
+  margin-left: 10%;
   padding-bottom: 5%
 }
 
@@ -115,13 +116,23 @@ footer {
   bottom: 0;
   width: 100%;
   height: auto;
-
 }
 
 .item{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding: 2rem;
+}
+
+.item p {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.item h3 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .container{
